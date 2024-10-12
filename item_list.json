@@ -1,0 +1,40 @@
+{
+    "Boots":{
+        "Ionian Boots of Lucidity":,
+        "Plated Steelcaps":,
+        "Mercury's Treads":,
+        "Berserker's Greaves":,
+        "Boots of Swiftness":,
+        "Symbiotic Soles":,
+        "Sorcerer's Shoes":
+    },
+
+    "Starter":{
+        "Tear":,
+        "Doran Blade":,
+        "Cull":,
+        "Doran Shield":,
+        "Dark Seal":,
+        "Doran Ring":,
+
+
+    },
+    "Legendary":{
+        "Mejai"
+        "Shurelya"
+        "Ardent"
+        "Echoes"
+        "Moonstone"
+        "Zeke"
+        "Locket"
+        "Imperial"
+        "Staff"
+        "Mikael"
+        "Redemption"
+        "Knight's Vow"
+        "Winters Approach" / "Manamune" / "Archangel's Staff"
+        "Trailblazer" / "Dead Man's Plate"
+    }
+
+
+}

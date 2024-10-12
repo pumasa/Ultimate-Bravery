@@ -1,0 +1,60 @@
+/* variables */
+
+/* reset */
+
+/* base style */
+
+/* body{ background-image: 'bg.jpg';} */
+body{color:#fff;background:#070720}
+
+/* fonts */
+
+/* mobile styles */ 
+
+/* small tablet styles */ 
+@media screen and (min-width: 620px){
+    
+}
+
+/* large tablets and laptops styles */
+@media screen and (min-width: 960px){
+    
+}
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    
+}
+
+.items-pic-small{
+    width:50px;
+    height:50px;
+}
+
+.items-border-normal-small{
+    border:1px solid #565691;
+    padding:1px;
+    border-radius:2px;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.padding{
+    padding: 5px;
+}
+
+#rune-container {
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Space between the two columns */
+}
+.rune-path {
+    display: flex;
+    flex-direction: column; /* Arrange runes vertically */
+    align-items: center; /* Center align the runes */
+}
+.rune-path img {
+    width: 50px; /* Set a fixed width for rune icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space between rune icons */
+}
