@@ -1,40 +1,110 @@
 {
+    "StatMods":{
+        "firstRow":{
+            "adaptiveForce":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsadaptiveforceicon.png",
+            "attackSpeed":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsattackspeedicon.png",
+            "abilityHaste":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodscdrscalingicon.png"
+        },
+        "secondRow":{
+            "adaptiveForce":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsadaptiveforceicon.png",
+            "moveSpeed":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodsmovementspeedicon.png",
+            "healthScaling":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthplusicon.png"
+        },
+        "thirdRow":{
+            "health":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthscalingicon.png",
+            "tenacity":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodstenacityicon.png",
+            "healthScaling":"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/perk-images/statmods/statmodshealthplusicon.png"
+        }
+    },
+    
     "Boots":{
-        "Ionian Boots of Lucidity":,
-        "Plated Steelcaps":,
-        "Mercury's Treads":,
-        "Berserker's Greaves":,
-        "Boots of Swiftness":,
-        "Symbiotic Soles":,
-        "Sorcerer's Shoes":
+        "Ionian Boots of Lucidity":"223158.png",
+        "Plated Steelcaps":"3047.png",
+        "Mercury's Treads":"3111.png",
+        "Berserker's Greaves":"223006.png",
+        "Boots of Swiftness":"223009.png",
+        "Symbiotic Soles":"3010.png",
+        "Sorcerer's Shoes":"3020.png"
     },
 
     "Starter":{
-        "Tear":,
-        "Doran Blade":,
-        "Cull":,
-        "Doran Shield":,
-        "Dark Seal":,
-        "Doran Ring":,
-
-
+        "Tear":"3070.png",
+        "Doran Blade":"1055.png",
+        "Cull":"1083.png",
+        "Doran Shield":"1054.png",
+        "Dark Seal":"1082.png",
+        "Doran Ring":"1056.png"
     },
+
     "Legendary":{
-        "Mejai"
-        "Shurelya"
-        "Ardent"
-        "Echoes"
-        "Moonstone"
-        "Zeke"
-        "Locket"
-        "Imperial"
-        "Staff"
-        "Mikael"
-        "Redemption"
-        "Knight's Vow"
-        "Winters Approach" / "Manamune" / "Archangel's Staff"
-        "Trailblazer" / "Dead Man's Plate"
+        "Mejai":"3041.png",
+        "Shurelya":"2065.png",
+        "Ardent":"3504.png",
+        "Echoes":"6620.png",
+        "Moonstone":"226617.png",
+        "Zeke":"3050.png",
+        "Locket":"3190.png",
+        "Imperial":"4005.png",
+        "Staff of the Flowing Water":"6616.png",
+        "Mikael":"223222.png",
+        "Redemption":"3107.png",
+        "Knight's Vow":"3109.png",
+        "Thornmail":"223075.png",
+        "Frozen Heart":"223110.png",
+        "Dawncore":"226621.png",
+        "Serpents Fang":"226695.png",
+        "Rod of Ages":"226657.png",
+        "Phantom Dancer":"3046.png",
+        "Rylais Crystal Scepter":"3116.png",
+        "Umbral Glaive":"3179.png",
+        "Hextech Rocketbell":"223146.png",
+        "Navori":"226675.png",
+        "Rapid Firecannon":"3094.png",
+        "Malignance":"3118.png",
+        "Horizon":"4628.png",
+        "Opportunity":"6701.png",
+        "Spirit":"223065.png",
+        "Randuins":"223143.png",
+        "Blackfire":"2503.png",
+        "Youmuus":"3142.png",
+        "Wits End":"223091.png",
+        "Unending":"2502.png",
+        "Force of Nature":"4401.png",
+        "Ludens":"6655.png",
+        "Stormsurge":"224646.png",
+        "Essence":"3508.png",
+        "Statikk":"9174.png",
+        "Eclipse":"226692.png",
+        "Kaenic":"2504.png",
+        "Morellonomicon":"3165.png",
+        "The Collector":"6676.png",
+        "Yun Tal":"223032.png",
+        "Nashor":"223115.png",
+        "Cosmic":"224629.png",
+        "Liandry":"226653.png",
+        "Guinsoo":"3124.png",
+        "Hubris":"6697.png",
+        "Axiom":"226696.png",
+        "Voltaic":"226699.png",
+        "Experimental Hexplate":"3073.png",
+        "Hullbreaker":"3181.png",
+        "Heartsteel":"223084.png",
+        "Riftmaker":"224633.png",
+        "Kraken":"226672.png",
+        "Chempunk":"6609.png",
+        "Spear of Shojin":"223161.png",
+        "Sundered Sky":"226610.png",
+        "Shadowflame":"4645.png",
+        "Blade of The Ruined King":"223153.png",
+        "Guardian Angel":"223026.png",
+        "Mercurial":"223139.png",
+        "Jaksho":"226665.png",
+        "Zhonyas":"3157.png",
+        "Deathdance":"226333.png",
+        "Overlords":"2501.png",
+        "Warmog":"3083.png",
+        "Bloodthirster":"223072.png",
+        "Infinity":"3031.png",
+        "Rabadon":"3089.png"
     }
-
-
 }

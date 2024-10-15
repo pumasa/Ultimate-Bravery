@@ -8,7 +8,7 @@
     <title>Ultimate Bravery</title>
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Navbar (add later if needed)
     <nav class="mx-auto navbar bg-dark border-bottom border-body navbar-expand-lg bg-body" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Ultimate Bravery</a>
@@ -29,7 +29,7 @@
                 
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Main Container -->
     <div class="container mt-4">
@@ -44,15 +44,49 @@
     
         <!-- Section to display the selected champion and runes -->
         <div class="row">
-            <div class="col-md-6">
-                <div id="selected-champion"></div> <!-- Display selected champion -->
+            <div class="col">
+                <div id="selected-champion"></div> 
             </div>
-            <div class="col-md-6">
-                <div id="rune-container"></div> <!-- Rune container for runes -->
+            <div class="col">
+                <div id="rune-container"></div> 
+            </div>
+            <div class="col">
+                <div id="rune-stat-mods"></div> 
+            </div>
+            <div class="col">
+                <div id="starter-item"></div> 
+            </div>
+            <div class="col">
+                <div id="boots"></div> 
+            </div>
+            <div class="col">
+                <div id="five-items"></div> 
             </div>
         </div>
+        
+        <!-- Champions list and patch  -->
+        <div>
+            <h5 class="mt-2">Champions <small class="text-secondary"> Patch: <span id="patch-number"></span></small></h5> 
+        </div>
+        <div class="row row-cols-auto" id="champion-row">
+        </div>
+
+                </div>
+            </div>
+        </div>
+
     </div>
-            <div>
+    
+    <script src="version_check.js"></script>
+    <script src="champ_list.js"></script>
+    <script src="runes.js"></script>
+    <script src="modsItems.js"></script>
+
+</body>
+</html>
+
+            <!-- <div>
+            Add after (roles):
                 <h5 class="mt-2">Roles</h5> 
                 <div id="roles" class="justify-content-center">
                     <div class="row">
@@ -73,44 +107,5 @@
                     </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            
-            <div>
-                <h5 class="mt-2">Champions<small class="text-secondary"> Patch: 14.20.1</small></h5>
-                <!-- <div class="input-group input-group-sm">
-                    <span class="input-group-text">
-                        <i class="fa fa-search"></i>
-                    </span>
-                    <input type="text" placeholder="Filter champions..." class="form-control"></input>
-                    <button type="button" data-bs-toggle="dropdown" aria-expanded="true" class="btn btn-outline-secondary dropdown-toggle show">
-                    Selection
-                    </button> 
-                    <ul class="dropdown-menu">
-                        <li><button class="dropdown-item">Select all</button></li> 
-                        <li><button class="dropdown-item">Deselect all</button></li> 
-                        <li><button class="dropdown-item">Append free champions</button></li> 
-                        <li><button class="dropdown-item">Only free champions</button></li> 
-                        <li><hr class="dropdown-divider"></li>
-                        <li><button class="dropdown-item">
-                            <i class="fa fa-save"></i> 
-                            <span class="d-none d-lg-inline">Save selected</span></button></li>
-                        <li><button class="dropdown-item">
-                            <i class="fa fa-folder-open"></i>
-                            <span class="d-none d-lg-inline">Load selected</span></button></li>
-                    </ul> -->
-                </div>
-                <div class="row row-cols-auto" id="champion-row"></div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    
-    <script src="version_check.js"></script>
-    <script src="champ_list.js"></script>
-    <script src="runes.js"></script>
-
-</body>
-</html>

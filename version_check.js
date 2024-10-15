@@ -3,8 +3,16 @@ async function fetchVersion() {
     try {
         const response = await fetch(realmURL);
         const realmData = await response.json();
-        return realmData.n.champion; 
+        const patchVersion = realmData.n.champion; // Get patch version
+
+        // Display the patch number in the HTML
+        document.getElementById('patch-number').textContent = patchVersion;
+
+        return patchVersion; 
     } catch (error) {
         console.error('Error fetching version:', error);
     }
 }
+
+// Call fetchVersion to update the patch number on page load
+fetchVersion();
