@@ -1,4 +1,3 @@
-// Load item_list.json  
 async function fetchItems() {
     const jsonURL = 'item_list.json';
 
@@ -19,8 +18,8 @@ function displayLegendaryItems(legendaryItems) {
     const legendaryKeys = Object.keys(legendaryItems);
     const itemsHTML = legendaryKeys
         .map(item => `
-            <div class="col">
-                <img src="https://ddragon.leagueoflegends.com/cdn/14.20.1/img/item/${legendaryItems[item]}" alt="${item}" class="item-pic" />
+            <div class="col padding">
+                <img class="items-pic-small items-border-normal-small" src="https://ddragon.leagueoflegends.com/cdn/14.20.1/img/item/${legendaryItems[item]}" alt="${item}" class="item-pic" />
             </div>
         `)
         .join('');
